@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Open-Sec/OSAH/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Open-Sec/OSAH/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Introducción a las Aplicaciones Web desde la perspectiva de Seguridad Ofensiva
+    • Fundamentos de Seguridad en Aplicaciones
+    • Arquitecturas utilizadas en Aplicaciones (tradicional y como servicio en la nube).
+    • Uso de buscadores para encontrar aplicaciones vulnerables en producción.
+# Metodologías para Pruebas de Seguridad de Aplicaciones
+    • OWASP Testing Guide
+    • OWASP Top 10 Riesgos en Aplicaciones Web
+    • OWASP Mobile Security Testing Guide
+    • OWASP Top 10 Riesgos en Aplicaciones Móviles
+    • OWASP Top 10 Riesgos en APIs
+    • Tipos de Pruebas DAST, SAST, IAST
+# Análisis y Explotación de Vulnerabilidades Web
+    • Uso de herramientas tipo Proxy para análisis y explotación de vulnerabilidades en aplicaciones web.
+    • Inyecciones de SQL (visibles y ciegas).
+        ◦ Capture the Flag (CtF) : Inyecciones SQL.
+    • Secuencia de comandos en sitios cruzados (XSS).
+        ◦ CtF : Búsqueda de información sensible (post-penetración).
+    • Carga de Archivos Arbitraria y Webshells.
+    • Fallas en Autenticación y Gestión de Sesiones (IDOR).
+    • Ataques automatizados en base a proxies.
+    • Ataques de diccionario a procesos de autenticación básica.
+    • Ataques a Reglas de Negocios (escalamiento horizontal y vertical).
+        ◦ CtF : Ataques a Roles y falta de validación en opciones de upload.
+    • CtF : Retos múltiples por fases.
+# Explotación Automatizada de vulnerabilidades web.
+    • Herramientas de análisis automatizadas.
+    • Herramientas de explotación automatizadas
+# Evaluación de Web Services vía SOAP/REST.
+    • Arquitectura de Web Services y Micro Servicios.
+    • Análisis y Explotación de Vulnerabilidades vía SOAP/REST.
+        ◦ Ejercicio : pruebas en aplicaciones basadas en REST API.
+        ◦ Ejercicio : Explotación de vulnerabilidades en aplicaciones móviles (mediante un API Restful)
+        ◦ Ejercicio : Bypass de Login, Inyección de SQL y Defacement.
+# Pruebas en Aplicaciones Móviles (DAST)
+    • Tipos de Aplicaciones Móviles
+    • Componentes de una aplicación móvil
+    • Requisitos para pruebas DAST
+        ◦ Rooting
+        ◦ SSL Pinning Bypass
+    • Uso de un framework para pruebas DAST
+# Instrumentación con Frida
+    • Hooking
+    • Modos de Usar Frida
+        ◦ Modo de Inyección
+        ◦ Modo Gadget
+    • Instrumentación para monitorear encriptación
