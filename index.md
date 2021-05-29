@@ -1,3 +1,9 @@
+# OSAH
+
+**Open-Sec Application Hacker**
+
+![Image of OSAH](https://github.com/Open-Sec/OSAH/raw/gh-pages/osah.png)
+
 # Introducción a las Aplicaciones Web desde la perspectiva de Seguridad Ofensiva
     • Fundamentos de Seguridad en Aplicaciones
     • Arquitecturas utilizadas en Aplicaciones (tradicional y como servicio en la nube).
